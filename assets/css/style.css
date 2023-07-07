@@ -2,7 +2,133 @@
 
 /* ```````````````````````````````````````````````````390px and below ``````````````````````````````````````````````````````````````` */
 
+@media only screen 
+and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) {
+    * {
+        box-sizing: border-box;
+    }
 
+    body{
+        background-color: white;
+    }  
+
+
+    div.info-logo{
+        position: relative; 
+        display: block;
+    }
+
+
+    img#main-image{
+        position: relative;
+        margin-left: 23%;
+        margin-top: 20%;
+        width: 56%;
+        height: 37%;
+        border-radius: 47%;
+        box-shadow: 1px 1px 2px white;
+        
+    }
+
+    h1#blog-header{
+        font-family: 'Caprasimo', cursive;
+        font-size: 48px;
+        color: #2A4EDF;
+        text-shadow: 2px 2px black;
+        margin-left: 36%;
+    }
+
+    a.btn.dropdown-toggle{
+        background-color: #2A4EDF;
+        width: 97%;
+        height: 15%;
+    }
+
+    h3#sloagan{
+        position: relative;
+        left: 0%;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        font-size: 20px;
+        color: white;
+        font-weight: bolder;
+        font-family: 'Caprasimo', cursive;
+        text-shadow: 2px 2px 5px blue;
+
+    }
+
+    img.card-img-top{
+        width: 287px;
+
+    }
+
+    div.card{
+        width: 20rem;
+        margin-left: 10%;
+        margin-top: 14%;
+        padding: 0px;
+        background-color: black;
+        color: white;
+    }
+
+    h4#card-header{
+        text-align: center;
+    }
+
+    p.card-text{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    h1#sign-up{
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        font-weight: bolder;
+        margin-top: 8%;
+        padding: 5%;
+
+    }
+
+    div.col-auto{
+        margin-left: 20%;
+        margin-top: 8%;
+    }
+
+    a{
+        color: #FFCC33;
+    }
+
+    input.form-control{
+        width: 50%;
+        height: 55%;
+        font-size: 24px;
+        font-weight: 500;
+        border: 4px #2a4edf95  double;
+    }
+
+    label.form-label{
+        font-size: 24px;
+    }
+
+    a{
+        color: #FFCC33;
+    }
+
+
+
+    button#submit-button{
+        margin-left: 30%;
+        margin-top: 6%;
+        margin-bottom: 25px;
+        width: 150px;
+        height: 60px;
+        border: 2px solid blue;
+        border-radius: 8px;
+        color: white;
+        background-color: #2A4EDF;
+    }
+ }
         /* @media (min-width: 390px){
 
             * {
